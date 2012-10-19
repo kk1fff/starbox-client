@@ -1,0 +1,18 @@
+{
+  "name" : "StarBox",
+  "preferGlobal" : true,
+  "version" : "0.0.1",
+  "author" : "Patrick Wang <kk1fff@patrickz.net>",
+  "description" : "A box that contains star",
+  "bin" : {
+    "starbox" : "./lib/run.js"
+  },
+  "main" : "./lib/starbox.js",
+  "dependencies" : {
+    "optimist" : "0.3.5"
+  },
+  "license" : "Apache 2.0",
+  "engines" : {
+    "node" : ">=0.8"
+  }
+}
