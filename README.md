@@ -17,12 +17,14 @@ if user changed the box folder. To start the daemon, just type:
 
     $ starbox
 
-This will block the console.
+This won't block the console. It creates a daemon to watch folder change.
+The folder that is watched is ~/StarBox, or other folder specified in
+~/.starbox.
 
 To get more information about starbox daemon, we can use another command to
 get the status:
 
-    $ starbox --filelist
+    $ starbox debug
 
 will show all the file that is currently monitored.
 
