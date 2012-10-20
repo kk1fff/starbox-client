@@ -24,7 +24,7 @@ The folder that is watched is ~/StarBox, or other folder specified in
 To get more information about starbox daemon, we can use another command to
 get the status:
 
-    $ starbox debug
+    $ starbox info
 
 will show all the file that is currently monitored.
 
